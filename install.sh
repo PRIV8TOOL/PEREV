@@ -32,5 +32,5 @@ read token
 sudo rm token.txt
 echo $token > token.txt
 clear
-printf "\e[32mSENDER INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31mphp PEREV\e[0m TO RUN TOOL NOW !\n\n"
+printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31mphp PEREV\e[0m TO RUN TOOL NOW !\n\n"
 sudo rm install.sh
