@@ -16,8 +16,9 @@ sudo apt-get install -y curl
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y php7.4
-sudo apt-get install -y php7.4-curl
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+sudo pip3 install requests colorama itertools idna uritools appdirs tldextract socket random  struct traceback urlextract configparser
 sudo apt install -y nano
 sudo wget https://w3ll.store/operators/PEREV.zip
 sudo unzip -o PEREV.zip
@@ -32,5 +33,5 @@ read token
 sudo rm token.txt
 echo $token > token.txt
 clear
-printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31mphp PEREV\e[0m TO RUN TOOL NOW !\n\n"
+printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31m./PEREV (For Linux) or Just open the PEREV.exe (For Windows)\e[0m TO RUN TOOL NOW !\n\n"
 sudo rm install.sh
