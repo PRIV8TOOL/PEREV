@@ -35,4 +35,4 @@ echo $token > token.txt
 clear
 printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31m./PEREV (For Linux) or Just open the PEREV.exe (For Windows)\e[0m TO RUN TOOL NOW !\n\n"
 sudo rm install.sh
-chmod 777 PEREV
+chmod 777 *
