@@ -10,8 +10,9 @@
 5) _`chmod 777 install.sh`_
 6) _`bash install.sh`_
 
-**Note :** _1) Whenever you logout the ROOT from putty remember to put command_ `cd PEREV` _when you relogin._
-           _2) Command to run is_ `./PEREV`
+**Note :** 
+1) _Whenever you logout the ROOT from putty remember to put command_ `cd PEREV` _when you relogin._
+2) _Command to run is_ `./PEREV`
 
 <!-- CONTACT -->
 
